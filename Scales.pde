@@ -4,7 +4,7 @@ void setup(){
 }
 
 void draw(){
-  delay(50);
+  frameRate(5);
   boolean shift = true;
   for(int y = 600; y > - 25; y -= 50){
     for(int x = 600; x  > - 25; x -= 50){
@@ -44,6 +44,7 @@ void scale(float x, float y){
   curveVertex(x - 25, y + 32.5);
   endShape(); 
 }
+
 
 
 
