@@ -1,6 +1,6 @@
 void setup(){
-  background(0, 0, 0);
   size(600, 600);
+  background(0, 0, 0);
 }
 
 void draw(){
@@ -44,6 +44,7 @@ void scale(float x, float y){
   curveVertex(x - 25, y + 32.5);
   endShape(); 
 }
+
 
 
 
